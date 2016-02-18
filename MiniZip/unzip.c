@@ -66,6 +66,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <inttypes.h>
 
 /*#ifndef NOUNCRYPT
         #define NOUNCRYPT
@@ -83,6 +84,10 @@
     extern int errno;
 #else
 #   include <errno.h>
+#endif
+
+#ifndef  _ZLIBIOAPI_H
+#include "ioapi_mem.h"
 #endif
 
 #ifdef HAVE_AES
@@ -611,6 +616,21 @@ extern unzFile ZEXPORT unzOpen(const char *path)
 extern unzFile ZEXPORT unzOpen64(const void *path)
 {
     return unzOpenInternal(path, NULL, 1);
+}
+
+extern unzFile ZEXPORT unzOpenBuffer(const void *buffer, size_t size)
+{
+    /* Double bytes sizes because 1 byte takes 2 chars,
+     * + 2 bytes for following '0x'
+     * + 1 byte for middle '+'
+     * + 1 byte for null termination */
+    char path[sizeof(const void *)*2 + sizeof(size_t)*2 + 4] = {0};
+    zlib_filefunc64_32_def memory_file;
+
+    sprintf(path, "%p+%zx", buffer, size);
+
+    fill_memory_filefunc64_32(&memory_file);
+    return unzOpenInternal(path, &memory_file, 0);
 }
 
 extern int ZEXPORT unzClose(unzFile file)
