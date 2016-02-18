@@ -7,88 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C59F3821BAEE3BC00DBB3D0 /* Objective-Zip_Swift_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3811BAEE3BC00DBB3D0 /* Objective-Zip_Swift_Tests.swift */; settings = {ASSET_TAGS = (); }; };
-		8C59F3831BAEE3BC00DBB3D0 /* Objective-Zip_Swift_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3811BAEE3BC00DBB3D0 /* Objective-Zip_Swift_Tests.swift */; settings = {ASSET_TAGS = (); }; };
-		8C59F39E1BAEE48600DBB3D0 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3841BAEE48600DBB3D0 /* adler32.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F39F1BAEE48600DBB3D0 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3841BAEE48600DBB3D0 /* adler32.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3A01BAEE48600DBB3D0 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3851BAEE48600DBB3D0 /* compress.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3A11BAEE48600DBB3D0 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3851BAEE48600DBB3D0 /* compress.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3A21BAEE48600DBB3D0 /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3861BAEE48600DBB3D0 /* crc32.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3A31BAEE48600DBB3D0 /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3861BAEE48600DBB3D0 /* crc32.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3A41BAEE48600DBB3D0 /* crc32.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3871BAEE48600DBB3D0 /* crc32.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F3A51BAEE48600DBB3D0 /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3881BAEE48600DBB3D0 /* deflate.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3A61BAEE48600DBB3D0 /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3881BAEE48600DBB3D0 /* deflate.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3A71BAEE48600DBB3D0 /* deflate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3891BAEE48600DBB3D0 /* deflate.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F3A81BAEE48600DBB3D0 /* gzclose.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F38A1BAEE48600DBB3D0 /* gzclose.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3A91BAEE48600DBB3D0 /* gzclose.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F38A1BAEE48600DBB3D0 /* gzclose.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3AA1BAEE48600DBB3D0 /* gzguts.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F38B1BAEE48600DBB3D0 /* gzguts.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F3AB1BAEE48600DBB3D0 /* gzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F38C1BAEE48600DBB3D0 /* gzlib.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3AC1BAEE48600DBB3D0 /* gzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F38C1BAEE48600DBB3D0 /* gzlib.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3AD1BAEE48600DBB3D0 /* gzread.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F38D1BAEE48600DBB3D0 /* gzread.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3AE1BAEE48600DBB3D0 /* gzread.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F38D1BAEE48600DBB3D0 /* gzread.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3AF1BAEE48600DBB3D0 /* gzwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F38E1BAEE48600DBB3D0 /* gzwrite.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3B01BAEE48600DBB3D0 /* gzwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F38E1BAEE48600DBB3D0 /* gzwrite.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3B11BAEE48600DBB3D0 /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F38F1BAEE48600DBB3D0 /* infback.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3B21BAEE48600DBB3D0 /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F38F1BAEE48600DBB3D0 /* infback.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3B31BAEE48600DBB3D0 /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3901BAEE48600DBB3D0 /* inffast.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3B41BAEE48600DBB3D0 /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3901BAEE48600DBB3D0 /* inffast.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3B51BAEE48600DBB3D0 /* inffast.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3911BAEE48600DBB3D0 /* inffast.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F3B61BAEE48600DBB3D0 /* inffixed.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3921BAEE48600DBB3D0 /* inffixed.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F3B71BAEE48600DBB3D0 /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3931BAEE48600DBB3D0 /* inflate.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3B81BAEE48600DBB3D0 /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3931BAEE48600DBB3D0 /* inflate.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3B91BAEE48600DBB3D0 /* inflate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3941BAEE48600DBB3D0 /* inflate.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F3BA1BAEE48600DBB3D0 /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3951BAEE48600DBB3D0 /* inftrees.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3BB1BAEE48600DBB3D0 /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3951BAEE48600DBB3D0 /* inftrees.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3BC1BAEE48600DBB3D0 /* inftrees.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3961BAEE48600DBB3D0 /* inftrees.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F3BD1BAEE48600DBB3D0 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3971BAEE48600DBB3D0 /* trees.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3BE1BAEE48600DBB3D0 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3971BAEE48600DBB3D0 /* trees.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3BF1BAEE48600DBB3D0 /* trees.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3981BAEE48600DBB3D0 /* trees.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F3C01BAEE48600DBB3D0 /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3991BAEE48600DBB3D0 /* uncompr.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3C11BAEE48600DBB3D0 /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3991BAEE48600DBB3D0 /* uncompr.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3C21BAEE48600DBB3D0 /* zconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F39A1BAEE48600DBB3D0 /* zconf.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F3C31BAEE48600DBB3D0 /* zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F39B1BAEE48600DBB3D0 /* zlib.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F3C41BAEE48600DBB3D0 /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F39C1BAEE48600DBB3D0 /* zutil.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3C51BAEE48600DBB3D0 /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F39C1BAEE48600DBB3D0 /* zutil.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3C61BAEE48600DBB3D0 /* zutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F39D1BAEE48600DBB3D0 /* zutil.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F3CE1BAEE49400DBB3D0 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3C71BAEE49400DBB3D0 /* crypt.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F3CF1BAEE49400DBB3D0 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3C81BAEE49400DBB3D0 /* ioapi.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3D01BAEE49400DBB3D0 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3C81BAEE49400DBB3D0 /* ioapi.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3D11BAEE49400DBB3D0 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3C91BAEE49400DBB3D0 /* ioapi.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F3D21BAEE49400DBB3D0 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3CA1BAEE49400DBB3D0 /* unzip.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3D31BAEE49400DBB3D0 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3CA1BAEE49400DBB3D0 /* unzip.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3D41BAEE49400DBB3D0 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3CB1BAEE49400DBB3D0 /* unzip.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F3D51BAEE49400DBB3D0 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3CC1BAEE49400DBB3D0 /* zip.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3D61BAEE49400DBB3D0 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3CC1BAEE49400DBB3D0 /* zip.c */; settings = {ASSET_TAGS = (); }; };
-		8C59F3D71BAEE49400DBB3D0 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3CD1BAEE49400DBB3D0 /* zip.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F3F01BAEE4A100DBB3D0 /* Objective-Zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3D81BAEE4A100DBB3D0 /* Objective-Zip.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F3F11BAEE4A100DBB3D0 /* Objective-Zip+NSError.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3D91BAEE4A100DBB3D0 /* Objective-Zip+NSError.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F3F21BAEE4A100DBB3D0 /* OZFileInZipInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3DA1BAEE4A100DBB3D0 /* OZFileInZipInfo.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F3F31BAEE4A100DBB3D0 /* OZFileInZipInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3DB1BAEE4A100DBB3D0 /* OZFileInZipInfo.m */; settings = {ASSET_TAGS = (); }; };
-		8C59F3F41BAEE4A100DBB3D0 /* OZFileInZipInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3DB1BAEE4A100DBB3D0 /* OZFileInZipInfo.m */; settings = {ASSET_TAGS = (); }; };
-		8C59F3F51BAEE4A100DBB3D0 /* OZFileInZipInfo+Internals.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3DC1BAEE4A100DBB3D0 /* OZFileInZipInfo+Internals.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F3F61BAEE4A100DBB3D0 /* OZZipCompressionLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3DD1BAEE4A100DBB3D0 /* OZZipCompressionLevel.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F3F71BAEE4A100DBB3D0 /* OZZipException.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3DE1BAEE4A100DBB3D0 /* OZZipException.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F3F81BAEE4A100DBB3D0 /* OZZipException.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3DF1BAEE4A100DBB3D0 /* OZZipException.m */; settings = {ASSET_TAGS = (); }; };
-		8C59F3F91BAEE4A100DBB3D0 /* OZZipException.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3DF1BAEE4A100DBB3D0 /* OZZipException.m */; settings = {ASSET_TAGS = (); }; };
-		8C59F3FA1BAEE4A100DBB3D0 /* OZZipException+Internals.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3E01BAEE4A100DBB3D0 /* OZZipException+Internals.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F3FB1BAEE4A100DBB3D0 /* OZZipFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3E11BAEE4A100DBB3D0 /* OZZipFile.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F3FC1BAEE4A100DBB3D0 /* OZZipFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3E21BAEE4A100DBB3D0 /* OZZipFile.m */; settings = {ASSET_TAGS = (); }; };
-		8C59F3FD1BAEE4A100DBB3D0 /* OZZipFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3E21BAEE4A100DBB3D0 /* OZZipFile.m */; settings = {ASSET_TAGS = (); }; };
-		8C59F3FE1BAEE4A100DBB3D0 /* OZZipFile+NSError.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3E31BAEE4A100DBB3D0 /* OZZipFile+NSError.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F3FF1BAEE4A100DBB3D0 /* OZZipFile+Standard.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3E41BAEE4A100DBB3D0 /* OZZipFile+Standard.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F4001BAEE4A100DBB3D0 /* OZZipFileMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3E51BAEE4A100DBB3D0 /* OZZipFileMode.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F4011BAEE4A100DBB3D0 /* OZZipReadStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3E61BAEE4A100DBB3D0 /* OZZipReadStream.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F4021BAEE4A100DBB3D0 /* OZZipReadStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3E71BAEE4A100DBB3D0 /* OZZipReadStream.m */; settings = {ASSET_TAGS = (); }; };
-		8C59F4031BAEE4A100DBB3D0 /* OZZipReadStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3E71BAEE4A100DBB3D0 /* OZZipReadStream.m */; settings = {ASSET_TAGS = (); }; };
-		8C59F4041BAEE4A100DBB3D0 /* OZZipReadStream+Internals.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3E81BAEE4A100DBB3D0 /* OZZipReadStream+Internals.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F4051BAEE4A100DBB3D0 /* OZZipReadStream+NSError.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3E91BAEE4A100DBB3D0 /* OZZipReadStream+NSError.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F4061BAEE4A100DBB3D0 /* OZZipReadStream+Standard.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3EA1BAEE4A100DBB3D0 /* OZZipReadStream+Standard.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F4071BAEE4A100DBB3D0 /* OZZipWriteStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3EB1BAEE4A100DBB3D0 /* OZZipWriteStream.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F4081BAEE4A100DBB3D0 /* OZZipWriteStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3EC1BAEE4A100DBB3D0 /* OZZipWriteStream.m */; settings = {ASSET_TAGS = (); }; };
-		8C59F4091BAEE4A100DBB3D0 /* OZZipWriteStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3EC1BAEE4A100DBB3D0 /* OZZipWriteStream.m */; settings = {ASSET_TAGS = (); }; };
-		8C59F40A1BAEE4A100DBB3D0 /* OZZipWriteStream+Internals.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3ED1BAEE4A100DBB3D0 /* OZZipWriteStream+Internals.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F40B1BAEE4A100DBB3D0 /* OZZipWriteStream+NSError.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3EE1BAEE4A100DBB3D0 /* OZZipWriteStream+NSError.h */; settings = {ASSET_TAGS = (); }; };
-		8C59F40C1BAEE4A100DBB3D0 /* OZZipWriteStream+Standard.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3EF1BAEE4A100DBB3D0 /* OZZipWriteStream+Standard.h */; settings = {ASSET_TAGS = (); }; };
+		12291CC11C74F7C0009F26F5 /* ioapi_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 12291CC01C74F7C0009F26F5 /* ioapi_mem.c */; };
+		8C59F3821BAEE3BC00DBB3D0 /* Objective-Zip_Swift_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3811BAEE3BC00DBB3D0 /* Objective-Zip_Swift_Tests.swift */; };
+		8C59F3831BAEE3BC00DBB3D0 /* Objective-Zip_Swift_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3811BAEE3BC00DBB3D0 /* Objective-Zip_Swift_Tests.swift */; };
+		8C59F39E1BAEE48600DBB3D0 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3841BAEE48600DBB3D0 /* adler32.c */; };
+		8C59F39F1BAEE48600DBB3D0 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3841BAEE48600DBB3D0 /* adler32.c */; };
+		8C59F3A01BAEE48600DBB3D0 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3851BAEE48600DBB3D0 /* compress.c */; };
+		8C59F3A11BAEE48600DBB3D0 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3851BAEE48600DBB3D0 /* compress.c */; };
+		8C59F3A21BAEE48600DBB3D0 /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3861BAEE48600DBB3D0 /* crc32.c */; };
+		8C59F3A31BAEE48600DBB3D0 /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3861BAEE48600DBB3D0 /* crc32.c */; };
+		8C59F3A41BAEE48600DBB3D0 /* crc32.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3871BAEE48600DBB3D0 /* crc32.h */; };
+		8C59F3A51BAEE48600DBB3D0 /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3881BAEE48600DBB3D0 /* deflate.c */; };
+		8C59F3A61BAEE48600DBB3D0 /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3881BAEE48600DBB3D0 /* deflate.c */; };
+		8C59F3A71BAEE48600DBB3D0 /* deflate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3891BAEE48600DBB3D0 /* deflate.h */; };
+		8C59F3A81BAEE48600DBB3D0 /* gzclose.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F38A1BAEE48600DBB3D0 /* gzclose.c */; };
+		8C59F3A91BAEE48600DBB3D0 /* gzclose.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F38A1BAEE48600DBB3D0 /* gzclose.c */; };
+		8C59F3AA1BAEE48600DBB3D0 /* gzguts.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F38B1BAEE48600DBB3D0 /* gzguts.h */; };
+		8C59F3AB1BAEE48600DBB3D0 /* gzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F38C1BAEE48600DBB3D0 /* gzlib.c */; };
+		8C59F3AC1BAEE48600DBB3D0 /* gzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F38C1BAEE48600DBB3D0 /* gzlib.c */; };
+		8C59F3AD1BAEE48600DBB3D0 /* gzread.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F38D1BAEE48600DBB3D0 /* gzread.c */; };
+		8C59F3AE1BAEE48600DBB3D0 /* gzread.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F38D1BAEE48600DBB3D0 /* gzread.c */; };
+		8C59F3AF1BAEE48600DBB3D0 /* gzwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F38E1BAEE48600DBB3D0 /* gzwrite.c */; };
+		8C59F3B01BAEE48600DBB3D0 /* gzwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F38E1BAEE48600DBB3D0 /* gzwrite.c */; };
+		8C59F3B11BAEE48600DBB3D0 /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F38F1BAEE48600DBB3D0 /* infback.c */; };
+		8C59F3B21BAEE48600DBB3D0 /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F38F1BAEE48600DBB3D0 /* infback.c */; };
+		8C59F3B31BAEE48600DBB3D0 /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3901BAEE48600DBB3D0 /* inffast.c */; };
+		8C59F3B41BAEE48600DBB3D0 /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3901BAEE48600DBB3D0 /* inffast.c */; };
+		8C59F3B51BAEE48600DBB3D0 /* inffast.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3911BAEE48600DBB3D0 /* inffast.h */; };
+		8C59F3B61BAEE48600DBB3D0 /* inffixed.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3921BAEE48600DBB3D0 /* inffixed.h */; };
+		8C59F3B71BAEE48600DBB3D0 /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3931BAEE48600DBB3D0 /* inflate.c */; };
+		8C59F3B81BAEE48600DBB3D0 /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3931BAEE48600DBB3D0 /* inflate.c */; };
+		8C59F3B91BAEE48600DBB3D0 /* inflate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3941BAEE48600DBB3D0 /* inflate.h */; };
+		8C59F3BA1BAEE48600DBB3D0 /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3951BAEE48600DBB3D0 /* inftrees.c */; };
+		8C59F3BB1BAEE48600DBB3D0 /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3951BAEE48600DBB3D0 /* inftrees.c */; };
+		8C59F3BC1BAEE48600DBB3D0 /* inftrees.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3961BAEE48600DBB3D0 /* inftrees.h */; };
+		8C59F3BD1BAEE48600DBB3D0 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3971BAEE48600DBB3D0 /* trees.c */; };
+		8C59F3BE1BAEE48600DBB3D0 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3971BAEE48600DBB3D0 /* trees.c */; };
+		8C59F3BF1BAEE48600DBB3D0 /* trees.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3981BAEE48600DBB3D0 /* trees.h */; };
+		8C59F3C01BAEE48600DBB3D0 /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3991BAEE48600DBB3D0 /* uncompr.c */; };
+		8C59F3C11BAEE48600DBB3D0 /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3991BAEE48600DBB3D0 /* uncompr.c */; };
+		8C59F3C21BAEE48600DBB3D0 /* zconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F39A1BAEE48600DBB3D0 /* zconf.h */; };
+		8C59F3C31BAEE48600DBB3D0 /* zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F39B1BAEE48600DBB3D0 /* zlib.h */; };
+		8C59F3C41BAEE48600DBB3D0 /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F39C1BAEE48600DBB3D0 /* zutil.c */; };
+		8C59F3C51BAEE48600DBB3D0 /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F39C1BAEE48600DBB3D0 /* zutil.c */; };
+		8C59F3C61BAEE48600DBB3D0 /* zutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F39D1BAEE48600DBB3D0 /* zutil.h */; };
+		8C59F3CE1BAEE49400DBB3D0 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3C71BAEE49400DBB3D0 /* crypt.h */; };
+		8C59F3CF1BAEE49400DBB3D0 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3C81BAEE49400DBB3D0 /* ioapi.c */; };
+		8C59F3D01BAEE49400DBB3D0 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3C81BAEE49400DBB3D0 /* ioapi.c */; };
+		8C59F3D11BAEE49400DBB3D0 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3C91BAEE49400DBB3D0 /* ioapi.h */; };
+		8C59F3D21BAEE49400DBB3D0 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3CA1BAEE49400DBB3D0 /* unzip.c */; };
+		8C59F3D31BAEE49400DBB3D0 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3CA1BAEE49400DBB3D0 /* unzip.c */; };
+		8C59F3D41BAEE49400DBB3D0 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3CB1BAEE49400DBB3D0 /* unzip.h */; };
+		8C59F3D51BAEE49400DBB3D0 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3CC1BAEE49400DBB3D0 /* zip.c */; };
+		8C59F3D61BAEE49400DBB3D0 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3CC1BAEE49400DBB3D0 /* zip.c */; };
+		8C59F3D71BAEE49400DBB3D0 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3CD1BAEE49400DBB3D0 /* zip.h */; };
+		8C59F3F01BAEE4A100DBB3D0 /* Objective-Zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3D81BAEE4A100DBB3D0 /* Objective-Zip.h */; };
+		8C59F3F11BAEE4A100DBB3D0 /* Objective-Zip+NSError.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3D91BAEE4A100DBB3D0 /* Objective-Zip+NSError.h */; };
+		8C59F3F21BAEE4A100DBB3D0 /* OZFileInZipInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3DA1BAEE4A100DBB3D0 /* OZFileInZipInfo.h */; };
+		8C59F3F31BAEE4A100DBB3D0 /* OZFileInZipInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3DB1BAEE4A100DBB3D0 /* OZFileInZipInfo.m */; };
+		8C59F3F41BAEE4A100DBB3D0 /* OZFileInZipInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3DB1BAEE4A100DBB3D0 /* OZFileInZipInfo.m */; };
+		8C59F3F51BAEE4A100DBB3D0 /* OZFileInZipInfo+Internals.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3DC1BAEE4A100DBB3D0 /* OZFileInZipInfo+Internals.h */; };
+		8C59F3F61BAEE4A100DBB3D0 /* OZZipCompressionLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3DD1BAEE4A100DBB3D0 /* OZZipCompressionLevel.h */; };
+		8C59F3F71BAEE4A100DBB3D0 /* OZZipException.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3DE1BAEE4A100DBB3D0 /* OZZipException.h */; };
+		8C59F3F81BAEE4A100DBB3D0 /* OZZipException.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3DF1BAEE4A100DBB3D0 /* OZZipException.m */; };
+		8C59F3F91BAEE4A100DBB3D0 /* OZZipException.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3DF1BAEE4A100DBB3D0 /* OZZipException.m */; };
+		8C59F3FA1BAEE4A100DBB3D0 /* OZZipException+Internals.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3E01BAEE4A100DBB3D0 /* OZZipException+Internals.h */; };
+		8C59F3FB1BAEE4A100DBB3D0 /* OZZipFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3E11BAEE4A100DBB3D0 /* OZZipFile.h */; };
+		8C59F3FC1BAEE4A100DBB3D0 /* OZZipFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3E21BAEE4A100DBB3D0 /* OZZipFile.m */; };
+		8C59F3FD1BAEE4A100DBB3D0 /* OZZipFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3E21BAEE4A100DBB3D0 /* OZZipFile.m */; };
+		8C59F3FE1BAEE4A100DBB3D0 /* OZZipFile+NSError.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3E31BAEE4A100DBB3D0 /* OZZipFile+NSError.h */; };
+		8C59F3FF1BAEE4A100DBB3D0 /* OZZipFile+Standard.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3E41BAEE4A100DBB3D0 /* OZZipFile+Standard.h */; };
+		8C59F4001BAEE4A100DBB3D0 /* OZZipFileMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3E51BAEE4A100DBB3D0 /* OZZipFileMode.h */; };
+		8C59F4011BAEE4A100DBB3D0 /* OZZipReadStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3E61BAEE4A100DBB3D0 /* OZZipReadStream.h */; };
+		8C59F4021BAEE4A100DBB3D0 /* OZZipReadStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3E71BAEE4A100DBB3D0 /* OZZipReadStream.m */; };
+		8C59F4031BAEE4A100DBB3D0 /* OZZipReadStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3E71BAEE4A100DBB3D0 /* OZZipReadStream.m */; };
+		8C59F4041BAEE4A100DBB3D0 /* OZZipReadStream+Internals.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3E81BAEE4A100DBB3D0 /* OZZipReadStream+Internals.h */; };
+		8C59F4051BAEE4A100DBB3D0 /* OZZipReadStream+NSError.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3E91BAEE4A100DBB3D0 /* OZZipReadStream+NSError.h */; };
+		8C59F4061BAEE4A100DBB3D0 /* OZZipReadStream+Standard.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3EA1BAEE4A100DBB3D0 /* OZZipReadStream+Standard.h */; };
+		8C59F4071BAEE4A100DBB3D0 /* OZZipWriteStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3EB1BAEE4A100DBB3D0 /* OZZipWriteStream.h */; };
+		8C59F4081BAEE4A100DBB3D0 /* OZZipWriteStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3EC1BAEE4A100DBB3D0 /* OZZipWriteStream.m */; };
+		8C59F4091BAEE4A100DBB3D0 /* OZZipWriteStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3EC1BAEE4A100DBB3D0 /* OZZipWriteStream.m */; };
+		8C59F40A1BAEE4A100DBB3D0 /* OZZipWriteStream+Internals.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3ED1BAEE4A100DBB3D0 /* OZZipWriteStream+Internals.h */; };
+		8C59F40B1BAEE4A100DBB3D0 /* OZZipWriteStream+NSError.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3EE1BAEE4A100DBB3D0 /* OZZipWriteStream+NSError.h */; };
+		8C59F40C1BAEE4A100DBB3D0 /* OZZipWriteStream+Standard.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C59F3EF1BAEE4A100DBB3D0 /* OZZipWriteStream+Standard.h */; };
 		8CC2FC631B91E63E00D5E05F /* libObjective-Zip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC2FC581B91E63E00D5E05F /* libObjective-Zip.a */; };
 		8CC2FC7E1B91E65200D5E05F /* libObjective-Zip_OS_X.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC2FC731B91E65200D5E05F /* libObjective-Zip_OS_X.a */; };
 		8CC2FCB91B91EB3500D5E05F /* ObjectiveZip_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2FCB81B91EB3500D5E05F /* ObjectiveZip_Tests.m */; };
@@ -125,6 +126,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		12291CC01C74F7C0009F26F5 /* ioapi_mem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi_mem.c; sourceTree = "<group>"; };
+		12291CC21C74F7EC009F26F5 /* ioapi_mem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi_mem.h; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8C14E8181773A09F00B84597 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		8C1D598C1771057D006D69C3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
@@ -230,6 +233,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12291CBF1C74F7AB009F26F5 /* MiniZip-Extension */ = {
+			isa = PBXGroup;
+			children = (
+				12291CC21C74F7EC009F26F5 /* ioapi_mem.h */,
+				12291CC01C74F7C0009F26F5 /* ioapi_mem.c */,
+			);
+			path = "MiniZip-Extension";
+			sourceTree = "<group>";
+		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -244,6 +256,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				12291CBF1C74F7AB009F26F5 /* MiniZip-Extension */,
 				8C6D353B10E56BA400B63EFA /* Objective-Zip */,
 				8C6D350110E56A4B00B63EFA /* MiniZip */,
 				8CD8B3E817766056005212EC /* ZLib */,
@@ -577,6 +590,7 @@
 				8C59F3CF1BAEE49400DBB3D0 /* ioapi.c in Sources */,
 				8C59F3A81BAEE48600DBB3D0 /* gzclose.c in Sources */,
 				8C59F3A21BAEE48600DBB3D0 /* crc32.c in Sources */,
+				12291CC11C74F7C0009F26F5 /* ioapi_mem.c in Sources */,
 				8C59F3A51BAEE48600DBB3D0 /* deflate.c in Sources */,
 				8C59F3D21BAEE49400DBB3D0 /* unzip.c in Sources */,
 				8C59F3BD1BAEE48600DBB3D0 /* trees.c in Sources */,
