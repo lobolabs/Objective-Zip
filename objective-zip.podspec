@@ -13,11 +13,12 @@ Pod::Spec.new do |s|
                    * Zipping and unzipping of common zip file formats.
                    * Multi-GB zip files thanks to 64-bit APIs, even with limited memory available.
                    * Per-file compression level and encryption.
+                   * In-memory files
 
                    Objective-Zip includes sources of latest versions of ZLib and MiniZip.
                    DESC
 
-  s.homepage     = "https://github.com/gianlucabertani/Objective-Zip"
+  s.homepage     = "https://github.com/lobolabs/Objective-Zip"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -27,8 +28,8 @@ Pod::Spec.new do |s|
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.author             = { "Gianluca Bertani" => "gianluca.bertani@email.it" }
-  s.social_media_url   = "https://twitter.com/self_vs_this"
+  s.author             = { "Gianluca Bertani" => "gianluca.bertani@email.it"}
+
 
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -39,13 +40,13 @@ Pod::Spec.new do |s|
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.source       = { :git => "https://github.com/gianlucabertani/Objective-Zip.git",
+  s.source       = { :git => "https://github.com/lobolabs/Objective-Zip.git",
                      :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.source_files  = "Objective-Zip/**/*.{h,m}", "MiniZip/**/*.{h,c}", "ZLib/**/*.{h,c}"
+  s.source_files  = "Objective-Zip/**/*.{h,m}", "MiniZip/**/*.{h,c}", "ZLib/**/*.{h,c}", "MiniZip-Extension/**/*.{h,c}"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
