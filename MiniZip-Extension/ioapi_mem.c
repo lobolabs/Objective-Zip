@@ -183,17 +183,6 @@ int ZCALLBACK fclose_mem_func (opaque, stream)
    voidpf opaque;
    voidpf stream;
 {
-    ourmemory_t *mem = (ourmemory_t *)stream;
-
-    /* Note that once we've written to the buffer we don't tell anyone
-       about it here. Probably the opaque handle could be used to inform
-       some other component of how much data was written.
-
-       This, and other aspects of writing through this interface, has
-       not been tested.
-     */
-
-    free (mem);
     return 0;
 }
 
