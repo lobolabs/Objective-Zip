@@ -41,6 +41,18 @@
 #pragma mark Initialization
 
 /**
+ @brief Creates a OZZipFile with the specified data and access mode.
+ <p>The access mode specifies if the zip is being unzipped.</p>
+ @param data data of the zip file.
+ @param mode Access mode, can be:<ul>
+ <li>OZZipFileModeUnzip: the zip file is opened for reading.
+ </ul>
+ @throws OZZipException If the file can't be opened due to an erroror if the
+ access mode is invalid.
+ */
+- (nonnull instancetype) initWithData:(nonnull NSData *)data mode:(OZZipFileMode)mode;
+
+/**
  @brief Creates a OZZipFile with the specified zip file name and access mode.
  <p>The access mode specifies if the zip is being created, appended, or
  unzipped.</p>

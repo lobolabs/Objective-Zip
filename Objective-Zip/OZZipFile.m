@@ -79,6 +79,23 @@
 #pragma mark -
 #pragma mark Initialization
 
+- (instancetype) initWithData:(NSData *)data mode:(OZZipFileMode)mode {
+    if (self = [super init]) {
+        _mode = mode;
+        switch (mode) {
+            case OZZipFileModeUnzip:
+                _unzFile = unzOpenBuffer([data bytes], (size_t)data.length);
+                if (_unzFile == NULL)
+                    @throw [OZZipException zipExceptionWithReason:@"Can't use provided data"];
+                break;
+                
+            default:
+                @throw [OZZipException zipExceptionWithReason:@"Unknown mode %d", _mode];
+        }
+    }
+    return self;
+}
+
 - (instancetype) initWithFileName:(NSString *)fileName mode:(OZZipFileMode)mode {
     return [self initWithFileName:fileName mode:mode legacy32BitMode:NO];
 }
